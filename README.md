@@ -126,7 +126,7 @@ We are always open to [your feedback](https://github.com/facebookincubator/creat
 
 ## Folder Structure
 
-After creation, your project should look like this:
+Project structure a bit changed, currently all components are palced under `components` directory:
 
 ```
 my-app/
@@ -137,12 +137,19 @@ my-app/
     index.html
     favicon.ico
   src/
-    App.css
-    App.js
-    App.test.js
+    components/
+      App/
+        App.css
+        App.js
+        App.test.js
+        package.json
+        logo.svg
+      Title/
+        Title.css
+        Title.js
+        package.json
     index.css
     index.js
-    logo.svg
 ```
 
 For the project to build, **these files must exist with exact filenames**:
