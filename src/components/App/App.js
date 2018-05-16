@@ -9,8 +9,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Title title="Welcome to React" />
-          <Title title="Dmytro" />
+          <Title>Welcome to React</Title>
+          <Title>Dmytro J. Medvid</Title>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
